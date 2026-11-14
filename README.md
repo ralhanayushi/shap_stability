@@ -1,6 +1,6 @@
 # Evaluating the Stability of SHAP Explanations Across Machine Learning Models for Music-Streaming Customer Churn Prediction
 
-**Authors:** Ayushi Ralhan & Bhumi Wadhwani
+**Authors:** Ayushi Ralhan & Bhumi Wadhwani                                                                                                                            
 **Guidance:** Prof. Ajaj Khan  
 **Department:** Computer Science & Engineering, Medi-Caps University, Indore  
 **Academic Year:** B.Tech Major Project (VII Semester), 2026  
