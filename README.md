@@ -1,6 +1,6 @@
-# SHAP Explanation Stability Evaluation System for KKBOX Churn Prediction
+# Evaluating the Stability of SHAP Explanations Across Machine Learning Models for Music-Streaming Customer Churn Prediction
 
-**Authors:** Bhumi Wadhwani & Ayushi Ralhan  
+**Authors:** Ayushi Ralhan & Bhumi Wadhwani
 **Guidance:** Prof. Ajaj Khan  
 **Department:** Computer Science & Engineering, Medi-Caps University, Indore  
 **Academic Year:** B.Tech Major Project (VII Semester), 2026  
