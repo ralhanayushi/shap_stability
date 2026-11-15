@@ -1,0 +1,20 @@
+[
+  {
+    "cutoff_date": "2017-01-31",
+    "total_customers": 24388,
+    "churn_rate": 0.06478596030834836,
+    "feature_count": 29,
+    "tx_feature_coverage": 0.8862145317369198,
+    "log_feature_coverage": 0.5122601279317697,
+    "member_feature_coverage": 0.8859275053304904
+  },
+  {
+    "cutoff_date": "2017-02-28",
+    "total_customers": 25000,
+    "churn_rate": 0.08884,
+    "feature_count": 29,
+    "tx_feature_coverage": 0.8924,
+    "log_feature_coverage": 0.50616,
+    "member_feature_coverage": 0.88816
+  }
+]

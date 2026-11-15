@@ -1,0 +1,4 @@
+,RandomForest,XGBoost,CatBoost
+RandomForest,1.0,0.9282,0.9327
+XGBoost,0.9282,1.0,0.9601
+CatBoost,0.9327,0.9601,1.0

@@ -1,0 +1,13 @@
+model,trial,params,val_roc_auc,val_f1,val_log_loss
+RandomForest,1,"{'n_estimators': 100, 'max_depth': 10, 'min_samples_leaf': 5}",0.8038,0.3861,0.426
+RandomForest,2,"{'n_estimators': 160, 'max_depth': 14, 'min_samples_leaf': 4}",0.8029,0.3942,0.36
+RandomForest,3,"{'n_estimators': 200, 'max_depth': 16, 'min_samples_leaf': 2}",0.7923,0.3834,0.3177
+RandomForest,4,"{'n_estimators': 250, 'max_depth': 18, 'min_samples_leaf': 2}",0.7921,0.3743,0.2965
+XGBoost,1,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8}",0.8254,0.3632,0.4437
+XGBoost,2,"{'n_estimators': 300, 'max_depth': 5, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8}",0.8204,0.3636,0.3864
+XGBoost,3,"{'n_estimators': 400, 'max_depth': 6, 'learning_rate': 0.03, 'subsample': 0.85, 'colsample_bytree': 0.85}",0.8084,0.3649,0.3693
+XGBoost,4,"{'n_estimators': 350, 'max_depth': 7, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.8}",0.7989,0.3569,0.3532
+CatBoost,1,"{'iterations': 250, 'depth': 5, 'learning_rate': 0.05}",0.8226,0.3712,0.4635
+CatBoost,2,"{'iterations': 400, 'depth': 6, 'learning_rate': 0.05}",0.815,0.3595,0.4085
+CatBoost,3,"{'iterations': 500, 'depth': 7, 'learning_rate': 0.04}",0.8105,0.3588,0.3839
+CatBoost,4,"{'iterations': 600, 'depth': 6, 'learning_rate': 0.03}",0.8164,0.3598,0.4183

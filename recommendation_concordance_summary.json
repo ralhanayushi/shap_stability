@@ -1,0 +1,30 @@
+{
+  "total_evaluated_customers": 100,
+  "full_concordance_rate_pct": 74.0,
+  "pairwise_action_agreement_pct": {
+    "RandomForest_vs_XGBoost": 76.0,
+    "RandomForest_vs_CatBoost": 76.0,
+    "XGBoost_vs_CatBoost": 94.0
+  },
+  "action_distribution_per_model": {
+    "RandomForest": {
+      "plan_or_price_communication": 0.38,
+      "renewal_support": 0.36,
+      "general_review": 0.18,
+      "engagement_campaign": 0.08
+    },
+    "XGBoost": {
+      "renewal_support": 0.55,
+      "plan_or_price_communication": 0.27,
+      "general_review": 0.16,
+      "engagement_campaign": 0.02
+    },
+    "CatBoost": {
+      "renewal_support": 0.57,
+      "plan_or_price_communication": 0.28,
+      "general_review": 0.14,
+      "engagement_campaign": 0.01
+    }
+  },
+  "advisory_disclaimer": "Retention recommendations are generated based on associative feature attributions from trained machine learning models. They do not constitute proven causal guarantees."
+}

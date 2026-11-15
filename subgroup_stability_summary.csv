@@ -1,0 +1,6 @@
+subgroup,sample_size,RandomForest_XGBoost_vector_corr,RandomForest_XGBoost_sign_agreement,RandomForest_XGBoost_top5_overlap,RandomForest_XGBoost_top5_jaccard,RandomForest_CatBoost_vector_corr,RandomForest_CatBoost_sign_agreement,RandomForest_CatBoost_top5_overlap,RandomForest_CatBoost_top5_jaccard,XGBoost_CatBoost_vector_corr,XGBoost_CatBoost_sign_agreement,XGBoost_CatBoost_top5_overlap,XGBoost_CatBoost_top5_jaccard
+Overall Cohort,100,0.7913,0.8353,2.47,0.3363,0.8099,0.8135,2.69,0.384,0.9417,0.8356,3.61,0.5873
+Full Model Agreement,80,0.7752,0.829,2.475,0.3378,0.7885,0.8099,2.625,0.3736,0.9345,0.8315,3.5875,0.5817
+Model Disagreement,20,0.8559,0.8604,2.45,0.3304,0.8955,0.8276,2.95,0.4256,0.9704,0.8523,3.7,0.6095
+Actual Churners,45,0.7981,0.846,2.4444,0.3303,0.8239,0.8125,2.6444,0.3726,0.9375,0.8422,3.7333,0.622
+Actual Non-Churners,55,0.7858,0.8266,2.4909,0.3413,0.7985,0.8142,2.7273,0.3933,0.945,0.8303,3.5091,0.5589

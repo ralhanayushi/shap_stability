@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-20 16:03:52",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "seed": 42,
+  "early_cutoff": "2017-01-31",
+  "late_cutoff": "2017-02-28",
+  "lookback_window_days": 60,
+  "max_sampled_users": 25000,
+  "background_size": 100,
+  "shap_sample_size": 100,
+  "total_runtime_seconds": 132.5,
+  "disclaimer": "This system is a research prototype. Prediction performance confirms that models function as churn predictors; it is not the main research contribution. SHAP explains the internal associative behavior of trained models and does not prove causal mechanisms of customer churn."
+}

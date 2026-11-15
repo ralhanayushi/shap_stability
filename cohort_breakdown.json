@@ -1,0 +1,7 @@
+{
+  "true_positives_agreement": 25,
+  "true_negatives_agreement": 25,
+  "false_positives_agreement": 15,
+  "false_negatives_agreement": 15,
+  "model_disagreements": 20
+}

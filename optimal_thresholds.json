@@ -1,0 +1,5 @@
+{
+  "RandomForest": 0.56,
+  "XGBoost": 0.77,
+  "CatBoost": 0.78
+}

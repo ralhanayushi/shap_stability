@@ -1,0 +1,167 @@
+{
+  "files": {
+    "train": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\train.csv",
+      "size_mb": 44.51,
+      "columns": [
+        "msno",
+        "is_churn"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "is_churn": 0.0
+      },
+      "total_rows": 992931,
+      "unique_msno": 992931,
+      "duplicate_msno": 0,
+      "churn_distribution": {
+        "0": 0.9361,
+        "1": 0.0639
+      }
+    },
+    "train_v2": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\train_v2.csv",
+      "size_mb": 43.52,
+      "columns": [
+        "msno",
+        "is_churn"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "is_churn": 0.0
+      },
+      "total_rows": 970960,
+      "unique_msno": 970960,
+      "duplicate_msno": 0,
+      "churn_distribution": {
+        "0": 0.9101,
+        "1": 0.0899
+      }
+    },
+    "members": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\members_v3.csv",
+      "size_mb": 408.1,
+      "columns": [
+        "msno",
+        "city",
+        "bd",
+        "gender",
+        "registered_via",
+        "registration_init_time"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "city": 0.0,
+        "bd": 0.0,
+        "gender": 66.41,
+        "registered_via": 0.0,
+        "registration_init_time": 0.0
+      }
+    },
+    "transactions_v2": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\transactions_v2.csv",
+      "size_mb": 110.05,
+      "columns": [
+        "msno",
+        "payment_method_id",
+        "payment_plan_days",
+        "plan_list_price",
+        "actual_amount_paid",
+        "is_auto_renew",
+        "transaction_date",
+        "membership_expire_date",
+        "is_cancel"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "payment_method_id": 0.0,
+        "payment_plan_days": 0.0,
+        "plan_list_price": 0.0,
+        "actual_amount_paid": 0.0,
+        "is_auto_renew": 0.0,
+        "transaction_date": 0.0,
+        "membership_expire_date": 0.0,
+        "is_cancel": 0.0
+      },
+      "sample_date_min": 20150101,
+      "sample_date_max": 20170331,
+      "sample_expire_min": 20170227,
+      "sample_expire_max": 20270306
+    },
+    "transactions": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\transactions.csv",
+      "size_mb": 1649.19,
+      "columns": [
+        "msno",
+        "payment_method_id",
+        "payment_plan_days",
+        "plan_list_price",
+        "actual_amount_paid",
+        "is_auto_renew",
+        "transaction_date",
+        "membership_expire_date",
+        "is_cancel"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "payment_method_id": 0.0,
+        "payment_plan_days": 0.0,
+        "plan_list_price": 0.0,
+        "actual_amount_paid": 0.0,
+        "is_auto_renew": 0.0,
+        "transaction_date": 0.0,
+        "membership_expire_date": 0.0,
+        "is_cancel": 0.0
+      },
+      "sample_date_min": 20150101,
+      "sample_date_max": 20170228,
+      "sample_expire_min": 19700101,
+      "sample_expire_max": 20170331
+    },
+    "user_logs_v2": {
+      "exists": true,
+      "path": "C:\\Users\\bhumi w\\.gemini\\antigravity\\scratch\\shap_churn_stability\\data\\raw\\user_logs_v2.csv",
+      "size_mb": 1365.15,
+      "columns": [
+        "msno",
+        "date",
+        "num_25",
+        "num_50",
+        "num_75",
+        "num_985",
+        "num_100",
+        "num_unq",
+        "total_secs"
+      ],
+      "sample_missing_pct": {
+        "msno": 0.0,
+        "date": 0.0,
+        "num_25": 0.0,
+        "num_50": 0.0,
+        "num_75": 0.0,
+        "num_985": 0.0,
+        "num_100": 0.0,
+        "num_unq": 0.0,
+        "total_secs": 0.0
+      },
+      "sample_date_min": 20170301,
+      "sample_date_max": 20170331
+    }
+  },
+  "coverage": {},
+  "target_distribution": {
+    "train": {
+      "0": 0.9361,
+      "1": 0.0639
+    },
+    "train_v2": {
+      "0": 0.9101,
+      "1": 0.0899
+    }
+  }
+}

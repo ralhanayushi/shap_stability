@@ -1,0 +1,437 @@
+{
+  "bd": {
+    "source_table": "members",
+    "description": "Member demographic characteristic: Age in years",
+    "data_type": "float32"
+  },
+  "tenure_days": {
+    "source_table": "members",
+    "description": "Member demographic characteristic: Tenure in days",
+    "data_type": "float32"
+  },
+  "tx_count": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: count",
+    "data_type": "float32"
+  },
+  "tx_total_paid": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: total_paid",
+    "data_type": "float32"
+  },
+  "tx_mean_paid": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: mean_paid",
+    "data_type": "float32"
+  },
+  "tx_mean_plan_days": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: mean_plan_days",
+    "data_type": "float32"
+  },
+  "tx_mean_list_price": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: mean_list_price",
+    "data_type": "float32"
+  },
+  "tx_cancel_rate": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: cancel_rate",
+    "data_type": "float32"
+  },
+  "tx_auto_renew_rate": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: auto_renew_rate",
+    "data_type": "float32"
+  },
+  "tx_days_since_last": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: days_since_last",
+    "data_type": "float32"
+  },
+  "tx_mean_discount_rate": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: mean_discount_rate",
+    "data_type": "float32"
+  },
+  "last_payment_plan_days": {
+    "source_table": "transactions",
+    "description": "Latest subscription status: payment_plan_days",
+    "data_type": "float32"
+  },
+  "last_actual_amount_paid": {
+    "source_table": "transactions",
+    "description": "Latest subscription status: actual_amount_paid",
+    "data_type": "float32"
+  },
+  "last_is_auto_renew": {
+    "source_table": "transactions",
+    "description": "Latest subscription status: is_auto_renew",
+    "data_type": "float32"
+  },
+  "last_is_cancel": {
+    "source_table": "transactions",
+    "description": "Latest subscription status: is_cancel",
+    "data_type": "float32"
+  },
+  "tx_days_until_expiry": {
+    "source_table": "transactions",
+    "description": "Aggregated subscription metric: days_until_expiry",
+    "data_type": "float32"
+  },
+  "is_expired_at_cutoff": {
+    "source_table": "computed",
+    "description": "Derived churn feature: is_expired_at_cutoff",
+    "data_type": "float32"
+  },
+  "log_active_days": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: active_days",
+    "data_type": "float32"
+  },
+  "log_total_secs": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: total_secs",
+    "data_type": "float32"
+  },
+  "log_mean_secs_per_day": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: mean_secs_per_day",
+    "data_type": "float32"
+  },
+  "log_total_unq": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: total_unq",
+    "data_type": "float32"
+  },
+  "log_total_songs": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: total_songs",
+    "data_type": "float32"
+  },
+  "log_days_since_last": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: days_since_last",
+    "data_type": "float32"
+  },
+  "log_completion_ratio": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: completion_ratio",
+    "data_type": "float32"
+  },
+  "log_skip_ratio": {
+    "source_table": "user_logs",
+    "description": "Aggregated listening metric: skip_ratio",
+    "data_type": "float32"
+  },
+  "city_1.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_1.0",
+    "data_type": "float32"
+  },
+  "city_10.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_10.0",
+    "data_type": "float32"
+  },
+  "city_11.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_11.0",
+    "data_type": "float32"
+  },
+  "city_12.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_12.0",
+    "data_type": "float32"
+  },
+  "city_13.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_13.0",
+    "data_type": "float32"
+  },
+  "city_14.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_14.0",
+    "data_type": "float32"
+  },
+  "city_15.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_15.0",
+    "data_type": "float32"
+  },
+  "city_16.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_16.0",
+    "data_type": "float32"
+  },
+  "city_17.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_17.0",
+    "data_type": "float32"
+  },
+  "city_18.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_18.0",
+    "data_type": "float32"
+  },
+  "city_19.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_19.0",
+    "data_type": "float32"
+  },
+  "city_20.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_20.0",
+    "data_type": "float32"
+  },
+  "city_21.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_21.0",
+    "data_type": "float32"
+  },
+  "city_22.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_22.0",
+    "data_type": "float32"
+  },
+  "city_3.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_3.0",
+    "data_type": "float32"
+  },
+  "city_4.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_4.0",
+    "data_type": "float32"
+  },
+  "city_5.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_5.0",
+    "data_type": "float32"
+  },
+  "city_6.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_6.0",
+    "data_type": "float32"
+  },
+  "city_7.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_7.0",
+    "data_type": "float32"
+  },
+  "city_8.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_8.0",
+    "data_type": "float32"
+  },
+  "city_9.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_9.0",
+    "data_type": "float32"
+  },
+  "city_Unknown": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: city_Unknown",
+    "data_type": "float32"
+  },
+  "gender_Unknown": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: gender_Unknown",
+    "data_type": "float32"
+  },
+  "gender_female": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: gender_female",
+    "data_type": "float32"
+  },
+  "gender_male": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: gender_male",
+    "data_type": "float32"
+  },
+  "registered_via_13.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_13.0",
+    "data_type": "float32"
+  },
+  "registered_via_3.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_3.0",
+    "data_type": "float32"
+  },
+  "registered_via_4.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_4.0",
+    "data_type": "float32"
+  },
+  "registered_via_7.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_7.0",
+    "data_type": "float32"
+  },
+  "registered_via_9.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_9.0",
+    "data_type": "float32"
+  },
+  "registered_via_Unknown": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: registered_via_Unknown",
+    "data_type": "float32"
+  },
+  "payment_method_id_11.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_11.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_12.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_12.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_13.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_13.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_14.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_14.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_16.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_16.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_18.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_18.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_19.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_19.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_20.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_20.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_21.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_21.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_22.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_22.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_23.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_23.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_24.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_24.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_25.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_25.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_26.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_26.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_27.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_27.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_28.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_28.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_29.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_29.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_30.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_30.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_31.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_31.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_32.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_32.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_33.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_33.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_34.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_34.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_35.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_35.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_36.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_36.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_37.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_37.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_38.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_38.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_39.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_39.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_40.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_40.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_41.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_41.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_8.0": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_8.0",
+    "data_type": "float32"
+  },
+  "payment_method_id_Unknown": {
+    "source_table": "members/transactions",
+    "description": "One-hot indicator for category: payment_method_id_Unknown",
+    "data_type": "float32"
+  }
+}
